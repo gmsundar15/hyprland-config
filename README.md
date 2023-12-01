@@ -44,7 +44,7 @@
 + Swaylock-effects
 + [Moe Dark Kvantum Theme](https://store.kde.org/p/1378414) 
 + swayidle
-+ dunst
++ dunst/mako for notifications
 + pamixer
 + brightnessctl
 
