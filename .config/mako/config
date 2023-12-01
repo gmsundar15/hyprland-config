@@ -2,7 +2,7 @@
 #   man 5 mako
 # To view all configuration options.
 
-font=Cozette 11
+font=Iosevka 16
 format=<b>%a ⏵</b> %s\n%b
 sort=-time
 output=DP-1
