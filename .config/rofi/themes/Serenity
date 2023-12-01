@@ -32,7 +32,7 @@
     alternate-active-foreground: @foreground;
     selected-active-background:  @pink;
     active-background:           @pink;
-    font: "Iosevka Term 28";
+    font: "Iosevka Term 20";
 }
 window {
     tansparency: "real";
