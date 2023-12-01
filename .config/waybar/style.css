@@ -33,7 +33,6 @@ window#waybar.hidden {
 	border: 3px solid @border1;
     border-radius: 12px;
     color:@text1;
-    font-size:16px;
     font-weight:normal;
     opacity:0.8;
 }
@@ -118,6 +117,9 @@ window#waybar.empty #window {
 	opacity: 0.8;
 }
 
+#custom-exit {
+    font-size: 24px;
+}
 
 /*#clock, #battery, #bluetooth, #cpu, #memory, #temperature, #backlight, #network, #custom-exit, #custom-media, #tray, #mode, #idle_inhibitor,#disk {
     border-radius: 15px;
