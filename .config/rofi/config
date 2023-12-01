@@ -1,0 +1,4 @@
+rofi.theme: ~/.config/rofi/themes/Serenity
+rofi.xoffset: 100
+rofi.yoffset: 200
+rofi.line-margin: 0

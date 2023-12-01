@@ -1,0 +1,55 @@
+call plug#begin('~/local/share/nvim/plugged')
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'scrooloose/nerdtree'
+Plug 'adelarsq/vim-matchit'
+Plug 'jiangmiao/auto-pairs'
+Plug 'lervag/vimtex'
+Plug 'nightsense/strawberry'
+Plug 'mhinz/vim-startify'
+
+call plug#end()
+
+colorscheme strawberry-light
+syntax on
+set number relativenumber
+let maplocalleader = ' '
+set mouse=a
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set guicursor
+set scrolloff=8
+set termguicolors
+set incsearch
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set smartindent
+set hidden
+set nowrap
+highlight Normal guibg=none
+
+
+"Vim Airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep =''
+let g:airline#extensions#tabline#left_sep_alt =''
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'base16_dracula'
+
+
+" NERDTree
+let NERDTreeShowHidden = 1
+
+
+" VimTeX
+let g:vimtex_view_general_viewer = 'zathura'
+
+
+" Mappings
+map <C-o> :NERDTreeToggle<CR>
+map <M-Tab> :bnext<CR>
+map <M-w>  :bdelete<CR>
