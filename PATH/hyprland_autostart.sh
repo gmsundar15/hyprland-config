@@ -12,11 +12,18 @@ $HOME/PATH/launch_waybar.sh &
 #blueman-applet &
 
 ### Notifications with dunst
-if pgrep dunst
+#if pgrep dunst
+#then
+#	killall dunst
+#fi
+#dunst -conf $HOME/.config/dunst/dunstrc &
+
+### Notifications with mako
+if pgrep mako
 then
-	killall dunst
+	killall mako
 fi
-dunst -conf $HOME/.config/dunst/dunstrc &
+mako &
 
 ###Automatic screen temperature with gammastep
 gammastep-indicator &
