@@ -207,7 +207,7 @@
     enable_recursive_icon_lookup = true
 
     # Set icon theme (only used for recursive icon lookup)
-    icon_theme = "High Contrast"
+    #icon_theme = "High Contrast"
     # You can also set multiple icon themes, with the leftmost one being used first.
     #icon_theme = "Tela pink"
 
@@ -223,7 +223,7 @@
     max_icon_size = 128
 
     # Paths to default icons (only neccesary when not using recursive icon lookup)
-    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_path = /usr/share/icons/Tela-pink-dark
 
     ### History ###
 
@@ -484,6 +484,7 @@
 [volume]
 	category="volume"
 	format= %b
+	default_icon=/usr/share/icons/Tela-pink-dark/16/actions/audio-on.svg
 	icon-position=top
 	alignment = center
 	vertical_alignment = center

@@ -45,6 +45,8 @@
 + [Moe Dark Kvantum Theme](https://store.kde.org/p/1378414) 
 + swayidle
 + dunst
++ pamixer
++ brightnessctl
 
 ## Optional Dependencies
 + Dolphin
