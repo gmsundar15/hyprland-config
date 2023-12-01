@@ -18,8 +18,8 @@
 ## Images
 ### Rofi
 ![rofi](./Pictures/20231201_00h07m50s_grim.png)
-### Pcmanfm-qt
-![pcmanfm-qt](./Pictures/20231201_00h09m00s_grim.png)
+### Dolphin
+![Dolphin](./Pictures/20231201_00h09m00s_grim.png)
 ### Wlogout
 ![wlogout](./Pictures/20231201_00h06m12s_grim.png)
 ### emacs
@@ -46,7 +46,7 @@
 + dunst
 
 ## Optional Dependencies
-+ pcmanfm-qt
++ Dolphin
 + kitty
 + doom emacs with dracula theme(or any emacs compiled with GTK for tranparency to work on wayland)
 + neovim
