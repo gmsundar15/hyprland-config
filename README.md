@@ -4,7 +4,7 @@
 - [Hyprland configs: Serenity](#hyprland-configs-serenity)
     - [Images](#images)
         - [Rofi](#rofi)
-        - [Pcmanfm-qt](#pcmanfm-qt)
+        - [Dolphin](#Dolphin)
         - [Wlogout](#wlogout)
         - [emacs](#emacs)
         - [Neovim](#neovim)
