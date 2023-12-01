@@ -28,8 +28,8 @@ optimus-manager-qt &
 /usr/lib/bluetooth/obexd -n &
 
 ###Lock screen Timeout with swayidle
-swayidle -w timeout 240 '$HOME/PATH/lock_screen_off.sh' before-sleep '$HOME/PATH/lock_screen_off.sh'
+swayidle -w timeout 240 '$HOME/PATH/lock_screen_off.sh' before-sleep '$HOME/PATH/lock_screen_off.sh' &
 
 ###Clipboard with Cliphist
-wl-paste --type text --watch cliphist store 
-wl-paste --type image --watch cliphist store
+wl-paste --type text --watch cliphist store &
+wl-paste --type image --watch cliphist store &
